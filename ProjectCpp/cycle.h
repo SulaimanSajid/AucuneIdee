@@ -11,10 +11,9 @@ private:
     int time_delay;
     char tabCycle[1000];
     int pauseCycle[1000];
-    int size;
+    int size=0;
     int timer_click = 0;
     int lance = 0;
-
 public :
     void click_left();
     void click_right();

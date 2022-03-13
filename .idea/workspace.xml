@@ -11,7 +11,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30d81e4c-46b7-4992-9ec8-aa678d3c634b" name="Changes" comment="" />
+    <list default="true" id="30d81e4c-46b7-4992-9ec8-aa678d3c634b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5dd68caf7f0e3663a624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-13T11-39-00-0701.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/ProjectCpp.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/ProjectCpp.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/ProjectCpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/ProjectCpp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCpp/cycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCpp/cycle.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
@@ -49,11 +68,6 @@
   </component>
   <component name="RunManager">
     <configuration name="ProjectCpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectCpp" TARGET_NAME="ProjectCpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectCpp" RUN_TARGET_NAME="ProjectCpp">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -68,11 +82,25 @@
       <option name="presentableId" value="Default" />
       <updated>1647163534645</updated>
       <workItem from="1647163539867" duration="6831000" />
-      <workItem from="1647177551329" duration="5000" />
+      <workItem from="1647177551329" duration="1359000" />
+      <workItem from="1647180154421" duration="421000" />
+      <workItem from="1647180660920" duration="239000" />
+      <workItem from="1647181173508" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

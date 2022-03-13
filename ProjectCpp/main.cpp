@@ -17,6 +17,7 @@ int main()
 
     int pos=0;
     int timer_click=0;
+    Cycle cycle;
 
     /*using Clock = std::chrono::steady_clock;
     std::chrono::time_point<std::chrono::steady_clock> start, now;
@@ -29,19 +30,19 @@ int main()
         if (GetAsyncKeyState('Z') & 1)
         {
             //printf("sommes nous rentres");
-            Cycle::automatic_fill();
+            cycle.automatic_fill();
         }
 
         if (GetAsyncKeyState('U') & 1) {
             click = true;
         }
 
-        if (Click)
+        if (click)
         {
             //fill_TabCycle();
-            
-            cycle();
-            Click = false;
+
+            cycle.cycler();
+            click = false;
         }
     }
 

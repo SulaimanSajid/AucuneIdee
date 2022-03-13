@@ -18,9 +18,9 @@ private:
 public :
     void click_left();
     void click_right();
-    void cycle(char tabCycle[]);
-    void cycle2(char move);
-    char fill_TabCycle();
+    void cycler(char tabCycle[]);
+    void cycler2(char move);
+    void fill_TabCycle();
     void automatic_fill();
 };
 

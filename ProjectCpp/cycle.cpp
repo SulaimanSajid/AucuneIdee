@@ -127,7 +127,7 @@ void Cycle::click_right() {
 }
 
 
-void Cycle::cycle() {
+void Cycle::cycler(char tabCycle[]) {
 
     int sec = 1000000000;
 
@@ -155,7 +155,7 @@ void Cycle::cycle() {
 }
 
 
-void Cycle::cycle2(char move) {
+void Cycle::cycler2(char move) {
     if (move == 'R')
     {
         click_right();

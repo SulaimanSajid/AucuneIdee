@@ -2,29 +2,26 @@
 // Created by Sulaiman on 10/03/2022.
 //
 
-#ifndef PROJECTCPP_CYCLE_H
-#define PROJECTCPP_CYCLE_H
+#ifndef CYCLE_HPP_INCLUDED
+#define CYCLE_HPP_INCLUDED
 
 
 class Cycle {
 private:
     int time_delay;
-    char tabCycle{};
+    char tabCycle[1000];
+    int pauseCycle[1000];
+    int size;
+    int timer_click = 0;
+    int lance = 0;
+
 public :
     void click_left();
     void click_right();
-    void cycle(char TabCycle[]);
-    int time_delay;
-    void cycle2(char Move);
-    char TabCycle[1000];
-    int PauseCycle[1000];
+    void cycle(char tabCycle[]);
+    void cycle2(char move);
     char fill_TabCycle();
-    int size;
-    int timer_click = 0;
-
     void automatic_fill();
-    int lance = 0;
 };
 
-
-#endif //PROJECTCPP_CYCLE_H
+#endif

@@ -8,27 +8,33 @@
 #include <random>
 #include "cycle.h"
 #include <string>
-using namespace std;
 
-int time_delay;
+using namespace std;
+using namespace std::this_thread;
+using namespace std::chrono;
+
+/*int time_delay;
 int size=0;
 char TabCycle[1000];
 int PauseCycle[1000];
 int timer_click = 0;
 int time_between_clicks = 0;
 int lance = 0;
-int lance_between_clicks = 0;
+int lance_between_clicks = 0;*/
 
-void automatic_fill()
+void Cycle::automatic_fill()
 {
+    int time_between_clicks = 0;
+    int lance_between_clicks = 0;
+
     while ( GetAsyncKeyState('A') == false ) {
         //printf("si ca se lance");
         if ((GetKeyState(VK_LBUTTON) & 0x8000) != 0 && lance == 0) {
             if (timer_click == 0) {
-                TabCycle[size - 1] = 'L';
+                tabCycle[size - 1] = 'L';
 
                 if (lance_between_clicks == 1) {
-                    PauseCycle[size - 1] = time_between_clicks;
+                    pauseCycle[size - 1] = time_between_clicks;
                 }
 
                 size++;
@@ -43,10 +49,10 @@ void automatic_fill()
 
         if ((GetKeyState(VK_RBUTTON) & 0x8000) != 0 && lance == 0) {
             if (timer_click == 0) {
-                TabCycle[size - 1] = 'R';
+                tabCycle[size - 1] = 'R';
 
                 if (lance_between_clicks == 1) {
-                    PauseCycle[size - 1] = time_between_clicks;
+                    pauseCycle[size - 1] = time_between_clicks;
                 }
 
                 size++;
@@ -72,16 +78,15 @@ void automatic_fill()
     }
 }
 
-void fill_TabCycle()
+void Cycle::fill_TabCycle()
 {
-
     cout << "Enter size : " << endl;
     cin >> size;
 
     for (int j=0; j<size; j++)
     {
         printf("Enter the next one for Tab Cycle : ");
-        cin >> TabCycle[j];
+        cin >> tabCycle[j];
 
 
         /*printf("Enter the next one for Tab Cycle : ");
@@ -96,15 +101,11 @@ void fill_TabCycle()
 
 
         printf("Enter the next one for PauseCycle : ");
-        cin >> PauseCycle[j];
+        cin >> pauseCycle[j];
     }
-
-
-
-
 }
 
-void click_left() {
+void Cycle::click_left() {
     INPUT input{ 0 };
     input.type = INPUT_MOUSE;
     input.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
@@ -115,7 +116,7 @@ void click_left() {
 }
 
 
-void click_right() {
+void Cycle::click_right() {
     INPUT input{ 0 };
     input.type = INPUT_MOUSE;
     input.mi.dwFlags = MOUSEEVENTF_RIGHTDOWN;
@@ -126,48 +127,41 @@ void click_right() {
 }
 
 
-void cycle() {
+void Cycle::cycle() {
 
     int sec = 1000000000;
-
-    using namespace std::this_thread;
-    using namespace std::chrono;
 
     int i;
     for (i = 0; i < size; i++)
 
     {
 
-        if (TabCycle[i] == 'R')
+        if (tabCycle[i] == 'R')
         {
             click_right();
             printf("R");
         }
 
-        else if (TabCycle[i] == 'L')
+        else if (tabCycle[i] == 'L')
         {
             click_left();
             printf("L");
         }
 
-        sleep_for(nanoseconds(sec * PauseCycle[i]));
+        sleep_for(nanoseconds(sec * pauseCycle[i]));
 
     }
 
 }
 
 
-void cycle2(char Move) {
-    using namespace std::this_thread;
-    using namespace std::chrono;
-
-
-    if (Move == 'R')
+void Cycle::cycle2(char move) {
+    if (move == 'R')
     {
         click_right();
     }
 
-    else if (Move == 'L')
+    else if (move == 'L')
     {
         click_left();
 

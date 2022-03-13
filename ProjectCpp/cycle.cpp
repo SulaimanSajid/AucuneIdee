@@ -127,7 +127,7 @@ void Cycle::click_right() {
 }
 
 
-void Cycle::cycler(char tabCycle[]) {
+void Cycle::cycler() {
 
     int sec = 1000000000;
 
